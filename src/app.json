@@ -1,0 +1,40 @@
+{
+  "pages": [ 
+  
+    "pages/index/main",
+    "pages/myself/main",
+    "pages/day/main",
+    "pages/tuWei/main",  
+    "pages/touxiang/main",
+    "pages/say/main",
+    "pages/wangyi/main",
+    "pages/jiTang/main",
+    "pages/xiaoHua/main"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffa500",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor":"#0a0a0a",
+    "borderStyle": "black",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/shop.png",
+      "selectedIconPath": "static/tabs/shops.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/myself/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/mys.png"
+    }],
+    "position": "bottom"
+  }
+}
